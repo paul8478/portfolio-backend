@@ -20,7 +20,7 @@ import com.example.portfolio.service.ProjectsService;
 @Controller
 @RestController
 @RequestMapping("Project")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://portfolio-new-azure-two.vercel.app/")
 public class ProjectsController {
 
     @Autowired
@@ -46,3 +46,4 @@ public class ProjectsController {
         projectsService.deletedata(id);
     }
 }
+
