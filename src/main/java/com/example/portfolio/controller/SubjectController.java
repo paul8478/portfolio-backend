@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 @RestController
 @RequestMapping("subject")
-@CrossOrigin(origins = "https://portfolio-new-azure-two.vercel.app/")
+@CrossOrigin(origins = "https://spaul.vercel.app/")
 public class SubjectController {
 
     @Autowired
@@ -48,4 +48,3 @@ public class SubjectController {
     }
 
 }
-

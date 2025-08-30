@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 @RestController
 @RequestMapping("portfolio")
-@CrossOrigin(origins = "https://portfolio-new-azure-two.vercel.app/")
+@CrossOrigin(origins = "https://spaul.vercel.app/")
 
 public class UserController {
 
@@ -50,4 +50,3 @@ public class UserController {
     }
 
 }
-

@@ -20,7 +20,7 @@ import com.example.portfolio.service.ProjectsService;
 @Controller
 @RestController
 @RequestMapping("Project")
-@CrossOrigin(origins = "https://portfolio-new-azure-two.vercel.app/")
+@CrossOrigin(origins = "https://spaul.vercel.app/")
 public class ProjectsController {
 
     @Autowired
