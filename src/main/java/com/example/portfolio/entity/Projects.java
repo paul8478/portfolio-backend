@@ -21,7 +21,7 @@ public class Projects {
     private String img;
     private String title;
 
-    @Lob // lob is for storingg the large text input in db like in form of TEXT or CLOB
+    @Lob
     private String Description;
     private String sdescription;
     private String projecttype;
